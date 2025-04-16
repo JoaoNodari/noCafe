@@ -182,8 +182,6 @@ header section .icons img:hover {
     text-transform: uppercase;
 }
 
-
-
 .btn:hover {
     background-color: #0366346a;
     border: 0.1rem solid var(--main-color);
@@ -199,4 +197,54 @@ header section .icons img:hover {
 
 .title span {
     color: #FFF;
+}
+
+.review .card {
+    height: auto;
+}
+
+.review .card .comentario {
+    font-family: var(--fonte-padrao);
+    font-size: .9rem;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+.review .card .cliente {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.review .card .names p {
+    font-family: var(--fonte-padrao);
+    font-size: .7rem;
+    text-align: center;
+}
+
+footer {
+    border-top: var(--border);
+    padding: 20px 50px;
+    width: 100%;
+}
+
+footer .menu ul {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+footer .menu ul li img {
+    width: 20px;
+}
+
+footer .menu ul li img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+footer .copyright {
+    font-family: var(--fonte-padrao);
+    color: #FFF;
+    font-size: .6rem;
+    padding: 10px 0;
 }

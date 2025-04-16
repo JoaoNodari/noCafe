@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/noCafe.png" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>NoCafé</title>
@@ -12,7 +13,7 @@
     <header>
         <section>
 
-            <a href="#" class="logo"><img src="src/img/noCafe.png" alt="logo"></a>
+            <a href="#" class="logo"><img src="src/img/noCafeVerde.png" alt="logo"></a>
             <nav class="navbar">
                 <ul class="menu">
                     <li><a href="#home">Home</a></li>
@@ -89,22 +90,36 @@
             <div class="container-menu">
 
                 <div class="card">
-                    <img src="src/img/cafeteria — ImgBB_files/quote-img.png" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, autem explicabo tenetur assumenda reiciendis, sunt quas aspernatur facilis quidem sint officiis laboriosam repellendus nam, suscipit et cupiditate voluptas? Velit, labore!</p>
-                    <img src="src/img/pic-3.png" alt="">
-                    <h3>João</h3>
+                    <p class="comentario">"Simplesmente encantada com o ambiente da NoCafé! A decoração é aconchegante e o cappuccino com canela virou meu novo vício. Dá pra trabalhar tranquilamente com o notebook, e o atendimento foi super gentil. Já quero voltar!"</p>
+                    <img class="cliente" src="src/img/marianaLopes.png" alt="Foto de uma cliente, Mariana Lopes">
+                    <div class="names">
+                        <h3>Mariana Lopes</h3>
+                        <p>Designer Gráfica</p>
+                    </div>
                 </div>
 
                 <div class="card">
-                    <img src="src/img/cafeteria — ImgBB_files/quote-img.png" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, autem explicabo tenetur assumenda reiciendis, sunt quas aspernatur facilis quidem sint officiis laboriosam repellendus nam, suscipit et cupiditate voluptas? Velit, labore!</p>
-                    <img src="src/img/pic-3.png" alt="">
-                    <h3>Claudio</h3>
+                    <p class="comentario">"Voltei ao NoCafé pra uma reunião rápida e, mais uma vez, fui surpreendido positivamente. O espresso duplo veio no ponto certo, e o pão artesanal com queijo brie é uma pedida obrigatória. Wi-Fi estável, tomadas disponíveis… lugar perfeito pra quem precisa conciliar café com trabalho!"</p>
+                    <img class="cliente" src="./src/img/rafaelMoura.png" alt="Foto de uma cliente, Rafael Moura">
+                    <div class="names">
+                        <h3>Rafael Moura</h3>
+                        <p>Analista de Sistemas</p>
+                    </div>
                 </div>
             </div>
         </section>
-
     </main>
+
+    <footer>
+        <nav class="menu">
+            <ul>
+                <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYklEQVR4nO2Zy04UQRSGe4GK4TouYauCcSGK7lTiTmIi+gSEiLyAF3QNsiUYlhJ8AS+JKxm87tS9gG4U3CoKiCv5TMlfsTKZ6a7u6Z4ek/mTSTrTVaf+03Xq3CoIGmggfwA9wDiwCCwBW6QHI8vILAI3gcNZKHASeEbtsQj0p6HAHmAW2JHgr8A94KJ2pyWVL7W7VotkDgFzWgutfRdoSiq4ADyXsJ/ABNCeFnGP9duBSWDb2Z3OJDthTemLMa3MGEdzOQZ8EpdXwN44k405GawCXZky9ePTBayJ00ycg70jczoe1AmAEzKz3+bZZ4I1qYmgzgDcEbdi1MAexzvV7GA761/QmTRmNFjmfQfwTRwPhQkywc5gLmvSFdZfc2LIaoUx83p/I0yQiaoGQ1kSrlKRy3q/ECZoRYMSpweKPyPAY2BZqceWnh/pXaHC3EEpY7zl+QjzXw4jsaFBbQkU2A/cBr57pB7rwC2gOcE6bZKxETboLxL6+XcO0afAqE1j9OvVfwvOuLdJ4hRRPJMoIiVW7XYDpz3mnHHMOHbQJW1FZE52J17EyYV0ll5q7ps4ZkYGipgzgeqIeAndP2XszoznoohI2IMdaU4hcgYcB1DIQ5ERe7Bj8I6KX8N5KGJigsGVGJwryboqWQ/yUMTadk8MzpVk9VqvF+SgyKaGt8bgXElWq2Rt/u+KmLLW4Ifn+IZphR320aBKAGN5HvaRyHTaE+qQ5OZ+CwpiBmdj8C6Vc04yjKzOmitSkqKs+EblMh/jQ2TFVwNFmpWKowTQWxngAPC6LpLGMmm8+boDgZ85faybNL5EGfNVLYryREcU7Fr1POYcbLsTmRRWG1WUus3qwlgHEIZ1XR3sy6rUXUmh+dBp3CjwUHXKpn5L+m84Se0St/mQazvIB047qHL5oO3OrUHnA+C+OF6r25ZpFLxbphpsvcpkUGcApiLNyhncr2uFba/2fY3A7nXHL10r9PlOMnd2qH3ZnTnLaD7dTl94Os7EJsfETJv/VKZMw7n0AZ+dQNuUJB5YZbZ1ydKRGePyB3tK5oRarcnij3ZmRnaJPIa5n7ikhkHVZa6zlkljehUn5h3vZNaeTnw9XbLIUeAJtUcxE4djfLepG7TNNv1IC0bWe3XyrwMHU1eggQaC2PgDcoKh50PBZGwAAAAASUVORK5CYII=" alt="instagram-new--v1"></li>
+                <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADRUlEQVR4nO2ZXWiOYRjHn3343JjZ5gD5ykoJRVhq7QMHcmCbjxxQOHNEQ0uRsTiS1Up2wMGc4ECGUg4UilI25LtIPiMfs9d85Ounm/9jN827+13teW/t/R+97/+5ruu+/j33fd3X/dxBkEIKKfQYwAigDrgCdBA9OoBWYAdQ0FMRS4AY/qAdqOqJiO8KcAwoAbKCiAFkAaVAs3L5BlQmMp3CN7Ep8ARAjXJ6C+S7ONSFbyLwDMAJ5bbdxfiqjEsCzwCUKbdWF+N3Ms4OPAMwRLnFXIx/IvAUuObXp4QA9d3U/FUJJDYcuCu/hqiFDACuxRFi1lmhw1j9gDPyOQVkRipEdpOBj9o4F1j8YYW4AGTE8U8DmmR7A8hJ2hoBNsr8KZAnbhjwUPyWOL5bZfMMGOMyXm8KSbemxu8NFJinduILMLsLv6V6kx+AWS5j9aoQ2Y8CXstttcXvEXfP3pOAmcB7Ca1wHafXhchnsdV2F1oFIewS9okbB7wQV53IGJEIkd9BuV4Mqw8wRQXBYCVwS78bE40fpZAc4IHct1n8ev7EaZcymzQh8i0GvmqRF1ll1iQfHo6cymxShch/l0LcN02euJHAK/Frexo7aiGZwCWF2W/xFeJMxZrkvRADk6gSNlhm8QfEtQD9g/9AyFirzL40U0t8tvYVg52+T62hwHWFeWNVqjQ9L1IxMEWh2NeqlQGcVIhzwGjguf6vs+xqxT0Ccn0Uslfut8METWesvuoTMNUqCGbjNGjySghQLVdTZif+9azRatcHiptgfXZa7oUQYKHmvGlH5nTxfDBwR6F3W/wacW2urTy9JQSYrmbRTJ8VcexmAJ/V9c61+CPWmkpPihDt2I+7O0R1cZh6Yh3EcrXoDTZELkR7gvlKb3AoLK8OB7Gz8jlq8fOtgjAtMiEqs8dlet6cPboN3Ok7Xs3jv3ATGBSVkAarMUz43sJ8LiI+6iMRkkzQF4XEPP6IPVS5tbsYh5WoNPAMQLlya3ExNhePBs2BZ6CzIa11MS6wymNN4AmAzVY7k+fqVKVWAl13lSVjzfBr0y233oTJaVGiQSp18egL2hIWYYnJNxePOmOHV3JRIgZc1kHMbTqlkEIKQVf4Afdw/pNA9uy4AAAAAElFTkSuQmCC" alt="twitterx--v1"></li>
+                <li><img src="data:image/png;base64,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" alt="whatsapp--v1"></li>
+            </ul>
+        </nav>
+        <p class="copyright">© 2023 NoCafé. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
